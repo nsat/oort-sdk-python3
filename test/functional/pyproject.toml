@@ -1,0 +1,18 @@
+[project]
+name = "python3-functional"
+version = "0.0.0"
+requires-python = ">=3.10"
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.group.dev.dependencies]
+black = ">=24"
+pytest = ">=7"
+pytest-cov = ">=4.1.0"
+pytest-timeout = ">=2"
+requests = ">=2"
+
+[tool.black]
+line-length = 79
+target-version = ["py310"]
