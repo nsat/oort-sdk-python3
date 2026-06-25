@@ -15,6 +15,9 @@ STARTUP_TIMEOUT_S = 5.0
 
 
 def _find_default_binary():
+    bundled = Path(__file__).resolve().parent / "oort-server"
+    if bundled.exists():
+        return bundled
     p = Path(__file__).resolve().parent
     while p != p.parent:
         candidate = p / "agent" / "build" / "oort-server"
