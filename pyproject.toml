@@ -1,6 +1,6 @@
 [project]
 name = "oort_sdk_client"
-version = "1.5.8"
+version = "1.5.9"
 description = "OORT Agent SDK Interface"
 authors = [
  {name = "Spire Global, Inc.",email = "team@openapitools.org"},
