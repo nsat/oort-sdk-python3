@@ -19,7 +19,7 @@ from setuptools import setup, find_packages # noqa: H301
 # prerequisite: setuptools
 # http://pypi.python.org/pypi/setuptools
 NAME = "oort-sdk-client"
-VERSION = "1.5.10"
+VERSION = "1.5.11"
 PYTHON_REQUIRES = ">=3.10"
 REQUIRES = [
  "urllib3 >= 2.1.0, < 3.0.0",
