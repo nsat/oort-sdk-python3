@@ -3,6 +3,9 @@
 .gitlab-ci.yml
 .openapi-generator-ignore
 .travis.yml
+CODEOWNERS
+CONTRIBUTING.md
+LICENSE
 Makefile
 README.md
 docs/AdcsCommandRequest.md
